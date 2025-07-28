@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خدمات استضافة سيرفرات ماين كرافت</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>خدمات استضافة سيرفرات ماين كرافت</h1>
+      <p>اختر الخطط المناسبة لك من هنا، ونحن نوفر لك سيرفر قوي.</p>
+    </div>
+  </header>
+
+  <section class="form-section">
+    <div class="container">
+      <h2>طلب سيرفر ماين كرافت</h2>
+      <form>
+        <label for="username">اسم المستخدم:</label>
+        <input type="text" id="username" name="username" placeholder="أدخل اسمك" required>
+
+        <label for="ram">عدد الرامات (GB):</label>
+        <select name="ram" id="ram">
+          <option value="1">1 GB</option>
+          <option value="2">2 GB</option>
+          <option value="4">4 GB</option>
+          <option value="8">8 GB</option>
+        </select>
+
+        <label for="serverType">نوع السيرفر:</label>
+        <select name="serverType" id="serverType">
+          <option value="Paper">Paper</option>
+          <option value="Spigot">Spigot</option>
+          <option value="Vanilla">Vanilla</option>
+        </select>
+
+        <label for="diskSpace">المساحة المطلوبة (GB):</label>
+        <input type="number" name="diskSpace" id="diskSpace" min="1" max="100" placeholder="من 1 إلى 100" required>
+
+        <button type="submit">إرسال الطلب</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>جميع الحقوق محفوظة © 2025</p>
+    </div>
+  </footer>
+</body>
+</html>
