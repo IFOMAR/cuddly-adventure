@@ -1,3 +1,4 @@
+/* أسلوب عام */
 * {
   margin: 0;
   padding: 0;
@@ -5,82 +6,98 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  font-family: 'Orbitron', sans-serif;
+  background: url('https://www.example.com/space-background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
   line-height: 1.6;
 }
 
+/* الحاوية الأساسية */
 .container {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
+/* الهيدر */
 header {
-  background-color: #0078D7;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 50px 0;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  color: #fff;
 }
 
 header p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #aaa;
 }
 
+/* الفورم */
 .form-section {
-  background-color: white;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .form-section h2 {
-  text-align: center;
+  font-size: 2rem;
   margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 form label {
-  margin-bottom: 8px;
-  font-weight: bold;
-}
-
-form input, form select, form button {
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  font-size: 1rem;
+  margin: 10px 0;
 }
 
 form input, form select {
-  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
 }
 
 form button {
-  background-color: #0078D7;
+  padding: 15px 30px;
+  background-color: #00b3b3;
   color: white;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  font-size: 1.1rem;
+  margin-top: 20px;
+  transition: background 0.3s ease;
 }
 
 form button:hover {
-  background-color: #005a9e;
+  background-color: #009999;
 }
 
+/* الفوتر */
 footer {
-  background-color: #333;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  margin-top: 20px;
-    }
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px 0;
+  color: #aaa;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 1rem;
+}
